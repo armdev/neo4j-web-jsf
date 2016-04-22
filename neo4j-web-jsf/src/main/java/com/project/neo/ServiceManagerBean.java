@@ -2,14 +2,11 @@ package com.project.neo;
 
 import java.io.File;
 import java.io.Serializable;
-import java.net.URL;
-import java.net.URLDecoder;
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
-import org.neo4j.graphdb.factory.GraphDatabaseSettings;
 
 @ManagedBean(eager = false, name = "serviceManagerBean")
 @ApplicationScoped
